@@ -1,0 +1,16 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[ ]:
+
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+T = int(input())
+
+for _ in range(T):
+    a = input()
+    A = set(input().split())
+    b = int(input())
+    B = set(input().split())
+    print(A.issubset(B))
+
